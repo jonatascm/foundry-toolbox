@@ -1,29 +1,19 @@
-# Study of Smart Contract Vulnerabilities and Attacks
+# Foundry Tools
 
-This repository contains:
-- List of vulnerabilities and how to fix them
-- List of reproducing attacks
+This repository helps to create POCs and make it easier to test.
 
-# Vulnerabilities added
+## Tools already added:
 
-All vulnerabilities can be found in `src/` folder with their current fix and each test in `test/` folder
+1. Forking Ethereum Mainnet and add cheatcodes contract
 
-1. Replay Attack / Signature Malleability
+## Future tools to add:
 
-Example how to test vulnerabilities:
+1. Flash Loan
+2. 
+
+
+## Example how to test any tool
+
 ```
-forge test --contracts ./test/ReplayAttack/ReplayAttack.t.sol -vvv
+forge test --contracts ./test/CloneMainnet.t.sol -vvvvv
 ```
-
-
-# Reproduce Attacks added
-
-All attack can be found in `test/ReproduceAttacks/` folder
-
-1. 
-
-
-
-# Helping content to study
-
-https://github.com/SunWeb3Sec/DeFiHackLabs
