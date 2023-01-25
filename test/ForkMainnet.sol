@@ -6,7 +6,7 @@ import "../interfaces/ICheatCodes.sol";
 
 //This contract fork mainnet and use cheatcodes
 //Need to setup the mainnet rpc endpoint in foundry.toml
-contract CloningMainnet {
+contract ForkMainnet {
   event Log(string _msg, uint256 _value);
 
   //Import cheat code for mainnet
