@@ -15,5 +15,9 @@ This repository helps to create POCs and make it easier to test.
 ## Example how to test any tool
 
 ```
+1. Install dependencies
+forge install
+
+2. Run any tool
 forge test --contracts ./test/CloneMainnet.t.sol -vvvvv
 ```
