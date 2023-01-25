@@ -19,5 +19,5 @@ This repository helps to create POCs and make it easier to test.
 forge install
 
 2. Run any tool
-forge test --contracts ./test/CloneMainnet.t.sol -vvvvv
+forge test --contracts ./test/ForkMainnet.t.sol -vvvvv
 ```
